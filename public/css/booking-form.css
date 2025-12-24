@@ -1,0 +1,89 @@
+/* 🌸 HEADER BOOKING */
+#booking-header {
+    background: #fff8f9;
+    text-align: center;
+    padding: 80px 20px 50px;
+    border-bottom: 1px solid #ffe0e6;
+  }
+  
+  #booking-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ff4d6d;
+    margin-bottom: 12px;
+  }
+  
+  #booking-header p {
+    color: #666;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* 🌸 SECTION FORM */
+  .booking-section {
+    background: linear-gradient(180deg, #fff0f3 0%, #ffffff 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 20px;
+  }
+  
+  /* 🌸 CARD FORM */
+  .booking-card {
+    max-width: 650px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 50px 40px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(255, 77, 109, 0.15);
+  }
+  
+  /* 🌸 LABEL */
+  .form-label {
+    color: #2b2b2b;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  /* 🌸 INPUT, TEXTAREA, SELECT */
+  .form-control,
+  .form-select {
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #f3c4cc;
+  }
+  
+  textarea.form-control {
+    min-height: 100px;
+  }
+  
+  /* 🌸 SPACING */
+  .mb-5 {
+    margin-bottom: 40px !important;
+  }
+  
+  /* 🌸 BUTTON */
+  .btn-submit {
+    background: linear-gradient(90deg, #ff4d6d, #ff8095);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 0 6px 20px rgba(255, 77, 109, 0.35);
+    transition: all 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .btn-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(255, 77, 109, 0.4);
+  }
+  

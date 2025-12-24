@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    background: #fdfdfd;
+    color: #333;
+  }
+  
+  .invoice-container {
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #2c3e50;
+  }
+  
+  h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #444;
+    border-left: 4px solid #3498db;
+    padding-left: 8px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .total {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 20px;
+    color: #27ae60;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .btn-print {
+    background: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .btn-print:hover {
+    background: #218838;
+  }
+  

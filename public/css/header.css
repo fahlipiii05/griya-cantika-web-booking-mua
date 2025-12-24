@@ -1,0 +1,146 @@
+/* 🌸 GLOBAL HEADER STYLE — Griya Cantika MUA */
+
+/* Reset agar tampilan antar halaman seragam */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global font dan warna dasar */
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    overflow-x: hidden;
+  }
+  
+  /* === HEADER === */
+  header {
+    background: linear-gradient(90deg, #ff4d6d, #ff8095);
+    color: white;
+    box-shadow: 0 4px 10px rgba(255, 77, 109, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+    /* FIX: tinggi dan posisi konsisten */
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Kontainer dalam header */
+  .header-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 60px;
+  
+    /* Pastikan elemen sejajar vertikal */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    /* FIX: agar tidak terdorong oleh CSS lain */
+    height: 80px;
+  }
+  
+  /* Logo / Judul */
+  header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1;
+  }
+  
+  /* Nav */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Tautan menu */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-size: 15px;
+    position: relative;
+  
+    /* FIX: agar posisi tengah vertikal */
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  
+  /* Hover lembut */
+  nav a:hover {
+    color: #ffe6ec;
+  }
+  
+  /* Menu aktif */
+  nav a.active {
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+  }
+  
+  /* Tombol logout */
+  .logout-btn {
+    background: white;
+    color: #ff4d6d;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background: #ffe3e8;
+  }
+  
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* === RESPONSIVE === */
+  @media (max-width: 992px) {
+    header {
+      min-height: auto;
+    }
+  
+    .header-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 15px 20px;
+      height: auto;
+    }
+  
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin: 10px 0;
+    }
+  
+    nav a {
+      margin: 0;
+      font-size: 14px;
+      height: auto;
+    }
+  
+    .logout-btn {
+      margin-top: 10px;
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  

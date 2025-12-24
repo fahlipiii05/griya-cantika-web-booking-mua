@@ -1,0 +1,128 @@
+/* 🌸 HEADER PROFIL */
+#profile-header {
+    background: #fff8f9;
+    text-align: center;
+    padding: 80px 20px 50px;
+    border-bottom: 1px solid #ffe0e6;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #profile-header h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ff4d6d;
+    margin-bottom: 12px;
+  }
+  
+  #profile-header p {
+    color: #666;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* 🌸 SECTION FORM */
+  .profile-section {
+    background: linear-gradient(180deg, #fff0f3 0%, #ffffff 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 20px;
+  }
+  
+  /* 🌸 CARD FORM */
+  .profile-card {
+    max-width: 650px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 50px 40px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(255, 77, 109, 0.15);
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* 🌸 LABEL */
+  .form-label {
+    color: #2b2b2b;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  /* 🌸 INPUT & TEXTAREA */
+  .form-control {
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 15px;
+    border: 1px solid #f3c4cc;
+    transition: all 0.2s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #ff4d6d;
+    box-shadow: 0 0 6px rgba(255, 77, 109, 0.25);
+  }
+  
+  textarea.form-control {
+    min-height: 100px;
+  }
+  
+  /* 🌸 BUTTON SUBMIT */
+  .btn-submit {
+    background: linear-gradient(90deg, #ff4d6d, #ff8095);
+    color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 0 6px 20px rgba(255, 77, 109, 0.35);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .btn-submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(255, 77, 109, 0.4);
+  }
+  
+  /* 🌸 BUTTON BACK */
+  .btn-back {
+    background: #f8f8f8;
+    border: 1px solid #f3c4cc;
+    color: #555;
+    font-weight: 600;
+    padding: 14px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-back:hover {
+    background: #ffe0e6;
+    transform: translateY(-3px);
+  }
+  
+  /* 🌸 RESPONSIVE */
+  @media (max-width: 768px) {
+    #profile-header h2 {
+      font-size: 28px;
+    }
+  
+    .profile-card {
+      padding: 35px 25px;
+    }
+  
+    .btn-submit, .btn-back {
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  

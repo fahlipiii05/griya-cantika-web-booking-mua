@@ -1,0 +1,105 @@
+/* ======= PEMBAYARAN PAGE ======= */
+.payment-section {
+    background: linear-gradient(180deg, #fff5f7 0%, #ffffff 100%);
+    padding: 100px 20px;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .payment-card {
+    max-width: 520px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    box-shadow: 0 8px 25px rgba(255, 77, 109, 0.2);
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .payment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(255, 77, 109, 0.25);
+  }
+  
+  .payment-card h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ff4d6d;
+    margin-bottom: 15px;
+  }
+  
+  .payment-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .payment-amount {
+    font-size: 26px;
+    font-weight: 700;
+    color: #28a745;
+    margin: 20px 0;
+  }
+  
+  .bank-info {
+    background: #fff7f9;
+    padding: 20px;
+    border: 1px dashed #ff4d6d;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .bank-info strong {
+    color: #ff4d6d;
+    font-size: 18px;
+  }
+  
+  .btn-payment {
+    background: linear-gradient(90deg, #ff4d6d, #ff8095);
+    border: none;
+    padding: 14px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 12px;
+    transition: 0.3s;
+    width: 100%;
+    box-shadow: 0 6px 18px rgba(255, 77, 109, 0.35);
+  }
+  
+  .btn-payment:hover {
+    background: linear-gradient(90deg, #ff3c5d, #ff6f88);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 22px rgba(255, 77, 109, 0.4);
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 20px;
+    color: #777;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+    color: #ff4d6d;
+  }
+  
+  /* Responsive */
+  @media (max-width: 576px) {
+    .payment-card {
+      padding: 30px 20px;
+    }
+  
+    .payment-card h2 {
+      font-size: 26px;
+    }
+  
+    .payment-amount {
+      font-size: 22px;
+    }
+  }
+  

@@ -1,0 +1,9 @@
+.card .h3, 
+.card .h4 {
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+}
+.card .text-xs {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
